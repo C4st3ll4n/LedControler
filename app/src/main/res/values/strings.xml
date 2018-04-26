@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Led Controler</string>
+    <string name="ligar_led_1">LIGAR LED 1</string>
+    <string name="desligar_led_1">DESLIGAR LED 1</string>
+    <string name="ligar_led_2">LIGAR LED 2</string>
+    <string name="desligar_led_2">DESLIGAR LED 2</string>
+    <string name="ligar_led_3">LIGAR LED 3</string>
+    <string name="desligar_led_3">DESLIGAR LED 3</string>
+</resources>

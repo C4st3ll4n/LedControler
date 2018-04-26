@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".TelaPrincipal">
+
+    <ToggleButton
+        android:id="@+id/btLed1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="54dp"
+        android:checked="false"
+        android:onClick="ctrlLED1"
+        android:textAlignment="center"
+        android:textOff="@string/ligar_led_1"
+        android:textOn="@string/desligar_led_1"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/btLed2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <ToggleButton
+        android:id="@+id/btLed2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:checked="false"
+        android:onClick="ctrlLED2"
+        android:textAlignment="center"
+        android:textOff="@string/ligar_led_2"
+        android:textOn="@string/desligar_led_2"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/btLed1"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ToggleButton
+        android:id="@+id/btLed3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="62dp"
+        android:checked="false"
+        android:onClick="ctrlLED3"
+        android:textAlignment="center"
+        android:textOff="@string/ligar_led_3"
+        android:textOn="@string/desligar_led_3"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="@+id/btLed2"
+        app:layout_constraintTop_toBottomOf="@+id/btLed2" />
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/floatingActionButton"
+        android:layout_width="75dp"
+        android:layout_height="69dp"
+        android:layout_marginBottom="16dp"
+        android:layout_marginEnd="16dp"
+        android:clickable="true"
+        android:onClick="conectar"
+        app:fabSize="mini"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:srcCompat="@drawable/ic_action_name" />
+
+</android.support.constraint.ConstraintLayout>
