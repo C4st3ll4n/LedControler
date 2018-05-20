@@ -31,6 +31,11 @@
                                       </entry>
                                     </map>
                                   </option>
+                                  <option name="values">
+                                    <map>
+                                      <entry key="theme" value="HOLO_DARK" />
+                                    </map>
+                                  </option>
                                 </PersistentState>
                               </value>
                             </entry>
